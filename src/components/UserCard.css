@@ -1,0 +1,104 @@
+.user-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+
+.user-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.user-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.user-info .role {
+  margin: 0.25rem 0 0;
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.user-stats .stat { text-align: center; }
+
+.user-stats .stat-value {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.user-stats .stat-label {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 0.375rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bio {
+  margin: 1rem 0;
+  color: #666;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.user-actions {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.user-actions button {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-message {
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  color: #1a1a1a;
+}
+
+.btn-message:hover { background: #f5f5f5; }
+
+.btn-connect {
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  color: white;
+}
+
+.btn-connect:hover { background: #111827; }

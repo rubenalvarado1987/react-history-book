@@ -1,0 +1,18 @@
+.rating-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.stars { display: flex; gap: 0.35rem; }
+
+.star {
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+}
+
+.star.filled { color: #fbbf24; }
+.star.empty { color: #d1d5db; }
+
+.rating-text { font-weight: 600; color: #1a1a1a; font-size: 0.9rem; }
+.rating-count { font-size: 0.85rem; color: #999; }
